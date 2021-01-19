@@ -73,6 +73,7 @@
 
 .skills__left {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 50%;
@@ -81,6 +82,10 @@
 .skills__right {
   display: flex;
   width: 50%;
+}
+
+.swipe_container {
+  width: 80%;
 }
 
 ::-webkit-scrollbar {
