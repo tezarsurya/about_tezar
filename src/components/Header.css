@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  z-index: 100;
+  transition: 0.5s;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: center;
+}
+
+.header__menu > a {
+  text-decoration: none;
+  margin: 1rem;
+  color: #1fbbb0;
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+.header__menu > a:hover {
+  font-size: 1.3rem;
+}

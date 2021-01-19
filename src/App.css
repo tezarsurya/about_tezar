@@ -1,38 +1,88 @@
 .App {
-  text-align: center;
+  scroll-snap-type: y mandatory;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100vh;
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App > section {
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#home {
+  display: flex;
+  background-color: #eff8f8;
+  flex-wrap: wrap;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home__left {
+  /* background-color: #447272; */
+  width: 50%;
+}
+
+.imgContainer {
+  width: 100%;
+  height: 100%;
+  background-image: url("./assets/PasFoto-min.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale();
+}
+
+.home__right {
+  width: 50%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  margin-left: 1rem;
+  font-size: 48px;
+  margin-bottom: 1.5rem;
+}
+
+.name > p {
+  font-size: 24px;
+  color: #1fbbb0;
+}
+
+.about {
+  width: 60%;
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.about > h3 {
+  margin-bottom: 1rem;
+}
+
+#education,
+#contact {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#skills {
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.skills__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.skills__right {
+  display: flex;
+  width: 50%;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
