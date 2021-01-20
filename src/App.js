@@ -1,16 +1,19 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect } from "react";
 import "./App.css";
 import Header from "./components/Header";
 import "animate.css";
 import Skills from "./components/Skills";
+import { Scroll } from "./context/ScrollContext";
+import Contact from "./components/Contact";
+import Education from "./components/Education";
 
 function App() {
-  const [scrollTop, setScrollTop] = useState(document.body.scrollTop);
+  const [scrollTop, setScrollTop] = useContext(Scroll);
 
   useEffect(() => {
     let header = document.getElementById("header");
     let menu = document.getElementById("nav_menu").children;
-    if (scrollTop > 50) {
+    if (scrollTop.position > 50) {
       header.style.backgroundColor = "#1FBBB0";
       for (let i = 0; i < menu.length; i++) {
         menu[i].setAttribute("style", "color: #fff;");
@@ -26,7 +29,10 @@ function App() {
     <div
       className="App"
       onScroll={(e) => {
-        setScrollTop(e.currentTarget.scrollTop);
+        setScrollTop((scrollTop) => ({
+          ...scrollTop,
+          position: e.currentTarget.scrollTop,
+        }));
       }}
     >
       <Header />
@@ -48,13 +54,9 @@ function App() {
           </div>
         </div>
       </section>
-      <section id="education">
-        <h3>#Education</h3>
-      </section>
+      <Education />
       <Skills />
-      <section id="contact">
-        <h3>#Contact</h3>
-      </section>
+      <Contact />
     </div>
   );
 }

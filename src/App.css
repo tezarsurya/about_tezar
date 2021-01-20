@@ -60,15 +60,21 @@
   margin-bottom: 1rem;
 }
 
-#education,
-#contact {
+#education {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 #skills {
+  /* background-image: url("./assets/skills-bg1.jpg");
+  background-size: cover; */
+  background-color: #eff8f8;
   display: flex;
+}
+
+.skills__title {
+  transition: 2s;
 }
 
 .skills__left {
@@ -79,13 +85,127 @@
   width: 50%;
 }
 
+.skills__left > h3 {
+  margin-bottom: 2.5rem;
+}
+
 .skills__right {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 50%;
 }
 
-.swipe_container {
+.skills__right > h3 {
+  margin-bottom: 2.5rem;
+}
+
+.carousel_container {
+  display: flex;
+  align-items: center;
   width: 80%;
+  height: 50%;
+  background-color: #feffff;
+  border-radius: 10px;
+  box-shadow: 0px 50px 80px -50px #659492;
+  transition: 2s;
+}
+
+.skills__table {
+  margin-left: 5rem;
+  width: 70%;
+  height: 65%;
+}
+
+.skills__table > tbody > tr {
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.slider {
+  width: 100% !important;
+  height: 100% !important;
+  outline: none !important;
+}
+
+.slider-list {
+  height: 100% !important;
+}
+
+.slider-control-bottomcenter > ul > li {
+  margin: 0 0.3rem 0 0.3rem !important;
+}
+
+.slider-slide {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 100% !important;
+}
+
+.slider-slide > img {
+  width: 200px !important;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact > h1 {
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+  transition: 2s;
+}
+
+.contact__container {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: 2s;
+}
+
+.contact__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eff8f8;
+  border-radius: 10px;
+  box-shadow: 0px 50px 80px -50px #659492;
+  transition: 0.5s;
+}
+
+.contact__card > a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.contact__card > a > img {
+  width: 150px;
+  margin: 1rem;
+}
+
+.contact__card > a > h4 {
+  margin: 1rem 1.5rem 2rem 1.5rem;
+  color: #505050;
+}
+
+#email > img {
+  width: 190px;
+  margin: 2rem 1.5rem 2.2rem 1.5rem;
+}
+
+#email > h4 {
+  margin: 1rem 1.5rem 2rem 1.5rem;
+  color: #505050;
+}
+
+.contact__card:hover {
+  transform: scale(1.1);
 }
 
 ::-webkit-scrollbar {

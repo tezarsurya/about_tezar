@@ -24,5 +24,6 @@
 }
 
 .header__menu > a:hover {
-  font-size: 1.3rem;
+  transform: scale(1.2);
+  text-decoration: none;
 }
