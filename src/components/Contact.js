@@ -6,7 +6,7 @@ import github from "../assets/github-custom.png";
 import { Scroll } from "../context/ScrollContext";
 
 const Contact = () => {
-  const [scrollValue, setScrollValue] = useContext(Scroll);
+  const [scrollValue] = useContext(Scroll);
 
   useEffect(() => {
     let offset = document.getElementById("contact").offsetTop;

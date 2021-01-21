@@ -121,7 +121,7 @@ const Skills = () => {
             dragging={false}
             swiping={false}
             autoplay={autoPlay}
-            autoplayInterval={3000}
+            autoplayInterval={1500}
             speed={1000}
           >
             <img
