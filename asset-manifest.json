@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/about_tezar/static/css/main.e1a43e8e.chunk.css",
-    "main.js": "/about_tezar/static/js/main.e9852219.chunk.js",
-    "main.js.map": "/about_tezar/static/js/main.e9852219.chunk.js.map",
+    "main.css": "/about_tezar/static/css/main.d6bc15bc.chunk.css",
+    "main.js": "/about_tezar/static/js/main.3a1c04b7.chunk.js",
+    "main.js.map": "/about_tezar/static/js/main.3a1c04b7.chunk.js.map",
     "runtime-main.js": "/about_tezar/static/js/runtime-main.cce26a35.js",
     "runtime-main.js.map": "/about_tezar/static/js/runtime-main.cce26a35.js.map",
     "static/css/2.a1596f27.chunk.css": "/about_tezar/static/css/2.a1596f27.chunk.css",
-    "static/js/2.6585cd0a.chunk.js": "/about_tezar/static/js/2.6585cd0a.chunk.js",
-    "static/js/2.6585cd0a.chunk.js.map": "/about_tezar/static/js/2.6585cd0a.chunk.js.map",
+    "static/js/2.3d39dba2.chunk.js": "/about_tezar/static/js/2.3d39dba2.chunk.js",
+    "static/js/2.3d39dba2.chunk.js.map": "/about_tezar/static/js/2.3d39dba2.chunk.js.map",
     "static/js/3.754fa7c1.chunk.js": "/about_tezar/static/js/3.754fa7c1.chunk.js",
     "static/js/3.754fa7c1.chunk.js.map": "/about_tezar/static/js/3.754fa7c1.chunk.js.map",
     "index.html": "/about_tezar/index.html",
     "static/css/2.a1596f27.chunk.css.map": "/about_tezar/static/css/2.a1596f27.chunk.css.map",
-    "static/css/main.e1a43e8e.chunk.css.map": "/about_tezar/static/css/main.e1a43e8e.chunk.css.map",
-    "static/js/2.6585cd0a.chunk.js.LICENSE.txt": "/about_tezar/static/js/2.6585cd0a.chunk.js.LICENSE.txt",
+    "static/css/main.d6bc15bc.chunk.css.map": "/about_tezar/static/css/main.d6bc15bc.chunk.css.map",
+    "static/js/2.3d39dba2.chunk.js.LICENSE.txt": "/about_tezar/static/js/2.3d39dba2.chunk.js.LICENSE.txt",
     "static/media/App.css": "/about_tezar/static/media/PasFoto-min.95cca055.png",
+    "static/media/education-step.2f390442.svg": "/about_tezar/static/media/education-step.2f390442.svg",
+    "static/media/education.98dafc02.svg": "/about_tezar/static/media/education.98dafc02.svg",
     "static/media/email-custom.bb2b8e65.png": "/about_tezar/static/media/email-custom.bb2b8e65.png",
     "static/media/github-custom.32a3ff2e.png": "/about_tezar/static/media/github-custom.32a3ff2e.png",
     "static/media/instagram-custom.e8bd1114.png": "/about_tezar/static/media/instagram-custom.e8bd1114.png",
@@ -23,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.cce26a35.js",
     "static/css/2.a1596f27.chunk.css",
-    "static/js/2.6585cd0a.chunk.js",
-    "static/css/main.e1a43e8e.chunk.css",
-    "static/js/main.e9852219.chunk.js"
+    "static/js/2.3d39dba2.chunk.js",
+    "static/css/main.d6bc15bc.chunk.css",
+    "static/js/main.3a1c04b7.chunk.js"
   ]
 }
